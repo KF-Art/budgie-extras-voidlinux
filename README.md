@@ -68,9 +68,10 @@ This template uses the official release from Ubuntu Budgie repository.
  <H2>Installing precompiled binary</H2>
 There is also an binary package to install directly to your system. I recommend this if you don't want to go through the building process, but this may be outdated sometimes. I'll try to mantain this updated as is possible for me.
 
+
 To install it, just do the following steps:
 
      git clone https://github.com/KF-Art/budgie-extras-voidlinux
-     cd bin budgie-extras-voidlinux/bin/ 
+     cd budgie-extras-voidlinux/bin/ 
      xbps-rindex -a *.xbps
      sudo xbps-install --repository=$PWD budgie-extras
