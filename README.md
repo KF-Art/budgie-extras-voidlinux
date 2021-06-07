@@ -2,6 +2,7 @@
 Void Linux Template for compiling budgie-extras package, additional applets for Budgie desktop to enhance user experience. Ported from Ubuntu Budgie.
 
 <H1>Included applets</H1>
+
 ## Plugins:
 
  - Hotcorners
@@ -41,19 +42,19 @@ budgie mini-apps - see the individual components for details
 <H1>How to install</H1>
 
 First of all, we'll need xtools installed in order to use properly xbps-src:
-<code>sudo xbps-install xtools</code>
+sudo xbps-install xtools
 
 If you haven't cloned the <code>void-packages repository already</code>, do it now:
-<code>git clone --depth=1 https://github.com/void-linux/void-packages</code>
+git clone --depth=1 https://github.com/void-linux/void-packages
 
 Prepare the build environment (do this once if not done already):
-<code>cd void-packages
-./xbps-src binary-bootstrap</code>
+cd void-packages
+./xbps-src binary-bootstrap
 
 Clone the template to <code>srcpkgs</code> directory, compile it and install:
-<code>cd srcpkgs
+cd srcpkgs
 git clone https://github.com/KF-Art/budgie-extras-voidlinux/budgie-extras & cd ..
 ./xbps-src pkg <package name> # compile the package
-xi <package name> # install the package</code>
+xi <package name> # install the package
   
 This template uses the official release from Ubuntu Budgie repository.
