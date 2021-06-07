@@ -45,7 +45,7 @@ First of all, we'll need xtools installed in order to use properly xbps-src:
 
      sudo xbps-install xtools
 
-If you haven't cloned the <code>void-packages repository already</code>, do it now:
+If you haven't cloned the <code>void-packages</code> repository already, do it now:
 
      git clone --depth=1 https://github.com/void-linux/void-packages
 
