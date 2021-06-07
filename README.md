@@ -58,8 +58,8 @@ Prepare the build environment (do this once if not done already):
 
 Clone the template to <code>srcpkgs</code> directory, compile it and install:
 
-     git clone https://github.com/KF-Art/budgie-extras-voidlinux/ & cd budgie-extras-voidlinux
-     cp -r budgie-extras ../srcpkgs/ & cd ..
+     git clone https://github.com/KF-Art/budgie-extras-voidlinux/ && cd budgie-extras-voidlinux
+     cp -r budgie-extras ../srcpkgs/ && cd ..
      ./xbps-src pkg budgie-extras # compile the package
      xi budgie-extras # install the package
   
