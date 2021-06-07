@@ -41,6 +41,8 @@ budgie mini-apps - see the individual components for details
 
 <H1>How to install</H1>
 
+ <H2>Building from template</H2>
+
 First of all, we'll need xtools installed in order to use properly xbps-src:
 
      sudo xbps-install xtools
@@ -56,9 +58,19 @@ Prepare the build environment (do this once if not done already):
 
 Clone the template to <code>srcpkgs</code> directory, compile it and install:
 
-     cd srcpkgs
-     git clone https://github.com/KF-Art/budgie-extras-voidlinux/budgie-extras & cd ..
-     ./xbps-src pkg <package name> # compile the package
-     xi <package name> # install the package
+     git clone https://github.com/KF-Art/budgie-extras-voidlinux/ & cd budgie-extras-voidlinux
+     cp -r budgie-extras ../srcpkgs/ & cd ..
+     ./xbps-src pkg budgie-extras # compile the package
+     xi budgie-extras # install the package
   
 This template uses the official release from Ubuntu Budgie repository.
+
+ <H2>Installing precompiled binary</H2>
+There is also an binary package to install directly to your system. I recommend this if you don't want to go through the building process, but this may be outdated sometimes. I'll try to mantain this updated as is possible for me.
+
+To install it, just do the following steps:
+
+     git clone https://github.com/KF-Art/budgie-extras-voidlinux
+     cd bin budgie-extras-voidlinux/bin/ 
+     xbps-rindex -a *.xbps
+     sudo xbps-install --repository=$PWD budgie-extras
