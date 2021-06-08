@@ -66,11 +66,14 @@ Clone the template to <code>srcpkgs</code> directory, compile it and install:
 This template uses the official release from Ubuntu Budgie repository.
 
 <H3>Updating template manually</H3>
-I'll do my best to give the faster as possible for me, the new releases of this package, but in case that I can't update the template, or you just want to update it yourself, here is how to update it (in this example, updating from current 1.2.0 to a possibly future 1.3.0)
+
+I'll do my best to give the faster as possible for me, the new releases of this package, but in case that I can't update the template, or you just want to update it yourself, here is how to update it. In this example, updating from 1.2.0 to a possibly future 1.3.0. This actually can be used as a example to update any template manually, like MEGASync, Brave, etc.
 
     cd void-packages # you need to be in the void-packages directory to do these steps
     sed -i 's/1.2.0/1.3.0/g' srcpkg/budgie-extras-template # update template's version
     xgensum -i srcpkgs/budgie-extras/template # regenerate checksum
+
+After that, you'll need to rebuild the package with the previous steps.
 
  <H2>Installing precompiled binary</H2>
 There is also an binary package to install directly to your system. I recommend this if you don't want to go through the building process, but this may be outdated sometimes. I'll try to mantain this updated as is possible for me.
@@ -82,7 +85,7 @@ To install it, just do the following steps:
      xbps-rindex -a *.xbps
      sudo xbps-install --repository=$PWD budgie-extras
 
-I'll consider to create my own repository to provide updates faster.
+I'll consider try to create my own repository to provide updates faster.
      
 <H3>Updating cloned repository contents</H3>
 
