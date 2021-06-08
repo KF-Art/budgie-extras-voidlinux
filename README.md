@@ -1,5 +1,5 @@
 # budgie-extras-voidlinux
-Void Linux Template for compiling budgie-extras package, additional applets for Budgie desktop to enhance user experience. Ported from Ubuntu Budgie.
+Void Linux Template for compiling <code>budgie-extras</code> package, additional applets for Budgie desktop to enhance user experience. Ported from Ubuntu Budgie.
 
 <H1>Included applets</H1>
 
