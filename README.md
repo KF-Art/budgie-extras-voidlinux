@@ -69,9 +69,9 @@ This template uses the official release from Ubuntu Budgie repository.
 
 I'll do my best to give the faster as possible for me, the new releases of this package, but in case that I can't update the template, or you just want to update it yourself, here is how to update it. In this example, updating from 1.2.0 to a possibly future 1.3.0. This actually can be used as a example to update any template manually, like MEGASync, Brave, etc.
 
-    cd void-packages # you need to be in the void-packages directory to do these steps
-    sed -i 's/1.2.0/1.3.0/g' srcpkg/budgie-extras-template # update template's version
-    xgensum -i srcpkgs/budgie-extras/template # regenerate checksum
+     cd void-packages # you need to be in the void-packages directory to do these steps
+     sed -i 's/1.2.0/1.3.0/g' srcpkg/budgie-extras-template # update template's version
+     xgensum -i srcpkgs/budgie-extras/template # regenerate checksum
 
 After that, you'll need to rebuild the package with the previous steps.
 
@@ -89,5 +89,5 @@ I'll consider try to create my own repository to provide updates faster.
      
 <H3>Updating cloned repository contents</H3>
 
-    cd /path/to/budgie-extras-voidlinux
-    git pull
+     cd /path/to/budgie-extras-voidlinux
+     git pull
