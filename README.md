@@ -75,7 +75,7 @@ I'll do my best to give the faster as possible for me, the new releases of this 
 
 After that, you'll need to rebuild the package with the previous steps.
 
- <H2>Installing precompiled binary</H2>
+ <H2>Installing precompiled binary (x86_64 only)</H2>
 There is also an binary package to install directly to your system. I recommend this if you don't want to go through the building process, but this may be outdated sometimes. I'll try to mantain this updated as is possible for me.
 
 To install it, just do the following steps:
