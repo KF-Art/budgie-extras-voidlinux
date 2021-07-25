@@ -41,6 +41,8 @@ Budgie mini-apps
 
 <H1>How to install</H1>
 
+Please note that this process was only tested on x86_64-glibc, which is the main focus of this project. Feel free to tell me if this works well on Musl, i686 and ARM platforms.
+
  <H2>Building from template</H2>
 
 First of all, we'll need xtools installed in order to use properly xbps-src:
@@ -67,15 +69,15 @@ This template uses the official release from Ubuntu Budgie repository.
 
 <H3>Updating template manually</H3>
 
-I'll do my best to give the faster as possible for me, the new releases of this package, but in case that I can't update the template, or you just want to update it yourself, here is how to update it. In this example, updating from 1.2.0 to a possibly future 1.3.0. This actually can be used as a example to update any template manually, like MEGASync, Brave, etc.
+I'll do my best to give the faster as possible for me the new releases of this package, but in case that I can't update the template, or you just want to update it yourself, here is how to update it. In this example, updating from 1.2.0 to a hypothetical 1.3.0. This actually can be used as a example to update any template manually, like MEGASync, Brave, etc.
 
      cd void-packages # you need to be in the void-packages directory to do these steps
-     sed -i 's/1.2.0/1.3.0/g' srcpkg/budgie-extras-template # update template's version
+     sed -i 's/1.2.0/1.3.0/g' srcpkgs/budgie-extras-template # update template's version
      xgensum -i srcpkgs/budgie-extras/template # regenerate checksum
 
 After that, you'll need to rebuild the package with the previous steps.
 
- <H2>Installing precompiled binary (x86_64 only)</H2>
+ <H2>Installing precompiled binary (x86_64-glibc only)</H2>
 There is also an binary package to install directly to your system. I recommend this if you don't want to go through the building process, but this may be outdated sometimes. I'll try to mantain this updated as is possible for me.
 
 To install it, just do the following steps:
