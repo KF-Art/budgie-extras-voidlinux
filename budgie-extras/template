@@ -10,4 +10,4 @@ maintainer="Kevin Figueroa <kevinfigueroart@protonmail.com>"
 license="GPL-3.0+"
 homepage="https://github.com/UbuntuBudgie/budgie-extras"
 distfiles="https://github.com/UbuntuBudgie/budgie-extras/releases/download/v${version}/budgie-extras-${version}.tar.xz"
-checksum=
+checksum=23c0088200d227eee0ad03bb5cdd49fc51ca17dc1eeb9b061861eac2ef91b06e
