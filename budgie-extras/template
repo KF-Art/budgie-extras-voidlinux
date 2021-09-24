@@ -1,6 +1,6 @@
 # Template file for 'budgie-extras'
 pkgname=budgie-extras
-version=1.2.0
+version=1.3.0
 revision=1
 build_style=meson
 hostmakedepends="pkg-config glib"
@@ -10,4 +10,4 @@ maintainer="Kevin Figueroa <kevinfigueroart@protonmail.com>"
 license="GPL-3.0+"
 homepage="https://github.com/UbuntuBudgie/budgie-extras"
 distfiles="https://github.com/UbuntuBudgie/budgie-extras/releases/download/v${version}/budgie-extras-${version}.tar.xz"
-checksum=fa9af5a6665c44adcacd29187dbf4810c82078b0c3aa79b8dbc121b672765733
+checksum=
