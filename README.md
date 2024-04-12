@@ -1,3 +1,4 @@
+# MOVED TO [cereus-linux/pkgs](https://codeberg.org/cereus-linux/pkgs/src/branch/master/srcpkgs/budgie-extras)
 # budgie-extras-voidlinux
 Void Linux Template for compiling <code>budgie-extras</code> package, additional applets for Budgie desktop to enhance user experience. Ported from Ubuntu Budgie.
 
